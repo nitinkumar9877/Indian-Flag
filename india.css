@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+}
+
+.orange {
+    height: 33.3vh;
+    width: 100;
+    background-color: rgb(223, 128, 64);
+}
+
+.white {
+    height: 33.3vh;
+    width: 100;
+    background-color: rgb(210, 210, 210);
+    position: relative;
+}
+
+.green {
+    height: 33.3vh;
+    width: 100;
+    background-color: rgb(48, 113, 84);
+}
+
+img {
+    display: inline-block;
+    height: 30vh;
+    width: 260px;
+    position: absolute;
+    top: 50%;
+    margin: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    z-index: 1;
+    /* border-size:b; */
+}
